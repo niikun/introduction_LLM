@@ -1,0 +1,16 @@
+pylint
+pytest
+black
+ipython
+click
+ipdb
+openai
+pytest-cov
+pydantic
+python-dotenv
+pandas
+qdrant-client
+sentence-transformers
+geopy
+fastapi
+uvicorn[standard]
