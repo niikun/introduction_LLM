@@ -6,7 +6,7 @@ format:
 	black *.py mylib/*py
 	
 lint:
-	pylint --disable=R,C *.py mylib/*py
+	pylint --disable=R,C *.py
 	
 test:
 	python -m pytest -vv --cov=calCli.py --cov=mylib test/test_*.py

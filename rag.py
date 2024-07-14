@@ -2,7 +2,6 @@
 import os
 import json
 from dotenv import load_dotenv
-import pandas as pd
 from qdrant_client import models, QdrantClient
 from sentence_transformers import SentenceTransformer
 from openai import OpenAI
@@ -13,7 +12,7 @@ client = OpenAI(
   api_key=os.environ.get("OPENAI_API_KEY"),
 )
 
-with open("top_rated_wines.json") as f:
+with open("top_rated_wines.json", 'r', encoding='utf-8') as f:
     wines = json.load(f)
 
 encoder = SentenceTransformer("all-MiniLM-L6-v2")

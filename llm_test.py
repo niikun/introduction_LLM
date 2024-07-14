@@ -1,9 +1,9 @@
 #!/workspaces/introduction_LLM/.venv/bin/python
 import os
 from dotenv import load_dotenv
-import pandas
-from qdrant_client import models, QdrantClient
-from sentence_transformers import SentenceTransformer
+# import pandas
+# from qdrant_client import models, QdrantClient
+# from sentence_transformers import SentenceTransformer
 from openai import OpenAI
 
 load_dotenv(verbose=True)
