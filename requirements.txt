@@ -11,6 +11,7 @@ python-dotenv
 pandas
 qdrant-client
 sentence-transformers
+streamlit
 geopy
 fastapi
 uvicorn[standard]
